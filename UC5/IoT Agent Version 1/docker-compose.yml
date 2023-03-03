@@ -75,8 +75,8 @@ services:
     environment:
         - "CYGNUS_POSTGRESQL_HOST=postgres-db"
         - "CYGNUS_POSTGRESQL_PORT=5432"
-        - "CYGNUS_POSTGRESQL_USER=postgres"
-        - "CYGNUS_POSTGRESQL_PASS=password"
+        - "CYGNUS_POSTGRESQL_USER=<username>"
+        - "CYGNUS_POSTGRESQL_PASS=<password>"
         - "CYGNUS_POSTGRESQL_ENABLE_CACHE=true"
         - "CYGNUS_POSTGRESQL_SERVICE_PORT=5055"
         - "CYGNUS_LOG_LEVEL=DEBUG"
@@ -94,8 +94,8 @@ services:
     networks:
         - default
     environment:
-        - "POSTGRES_PASSWORD=password"
-        - "POSTGRES_USER=postgres"
+        - "POSTGRES_PASSWORD=<password>"
+        - "POSTGRES_USER=<username>"
         - "POSTGRES_DB=postgres"
   
 networks:
