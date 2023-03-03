@@ -37,6 +37,8 @@ curl -X GET 'http://localhost:1026/version'
 ## Starting Containers Using Docker Compose file (option 2)
 ## This option is recommended when you you want to use PostgreSQL and Cygnus.
 
+### Note: Change username and password accordingly in Postgres and Cygnus in the give docker-compose.yml then follow these steps:
+
 Step 1: Run this in the terminal
 ```
 docker compose up -d
@@ -219,7 +221,7 @@ curl -iX POST \
 
 ## PostgreSQL - Reading Data From A Database
 ```
-winpty docker run -it --rm  --network iot_agent_v2_default jbergknoff/postgresql-client postgresql://postgres:password@postgres-db:5432/postgres
+winpty docker run -it --rm  --network iot_agent_v2_default jbergknoff/postgresql-client postgresql://<username>:<password>@postgres-db:5432/postgres
 ```
 
 ## Show Available Databases On The PostgreSQL Server
