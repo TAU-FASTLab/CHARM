@@ -219,7 +219,7 @@ curl -iX POST \
 
 ## PostgreSQL - Reading Data From A Database
 ```
-winpty docker run -it --rm  --network iot_agent_v2_default jbergknoff/postgresql-client postgresql://postgres:password@postgres-db:5432/postgres
+winpty docker run -it --rm  --network iot_agent_v2_default jbergknoff/postgresql-client postgresql://<username>:<password>@postgres-db:5432/postgres
 ```
 
 ## Show Available Databases On The PostgreSQL Server
