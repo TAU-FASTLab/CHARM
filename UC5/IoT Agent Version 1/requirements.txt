@@ -1,0 +1,7 @@
+requests
+pymongo
+opcua
+datetime
+cryptography
+flask
+jsonschema
