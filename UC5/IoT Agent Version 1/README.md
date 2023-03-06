@@ -1,3 +1,6 @@
+The overall layout of the framework looks like this:
+![Picture1a](https://user-images.githubusercontent.com/106956110/223063503-fa8de3c7-4390-49e7-b811-b12569cf7a29.png)
+
 ### Installation of Windows 
 You can install your desire version of windows using following link:
 https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d
