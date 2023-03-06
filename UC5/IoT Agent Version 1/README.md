@@ -154,6 +154,7 @@ The process of connecting IoT agent with Prosys Simulated OPC-UA Server using pa
 Copy the certificate.pem file and paste it directory of your server.
 ```
 C:[PATH].prosysopc\prosys-opc-ua-simulation-server\PKI\CA\private
+C:[PATH].prosysopc\prosys-opc-ua-simulation-server\PKI\CA\certs
 ```
 
 It will add certificate in your server and you can verify this by looking at certificate tab of your server. You will see the certificate with the name you have given to it with tagline as "Trusted"
