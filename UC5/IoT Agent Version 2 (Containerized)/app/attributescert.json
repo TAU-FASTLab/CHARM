@@ -54,8 +54,8 @@
     "certificate": {
         "uri": "urn:SIMATIC.S7-1500.OPC-UA.Application:DistributingStation",
         "ip": "127.0.0.1",
-        "username": "charm123",
-        "password": "tuni123",
+        "username": "<username>",
+        "password": "<password>",
         "security_policy": "Basic256Sha256",
         "security_mode": "SignAndEncrypt",
         "cert_path": "Certificate/certificate.pem",
