@@ -147,7 +147,7 @@ docker run -d --name=iot1 --network=iotagent__containerized_v2-postgresql_defaul
 
 ```
 ### Aproach 2: Creating all containers at one using a docker-compose file
-## Open the docker compose file and add all IoT Agents specifying theier config file names as environment variables
+## Open the docker compose file and add all IoT Agents specifying their config file names as environment variables
 ```
   # IoT Agent
   iot-agent:
