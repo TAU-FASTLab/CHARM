@@ -1,0 +1,53 @@
+{
+    "data": {
+        "id": "Simulation",
+        "type": "3:Simulation",
+        "3:Counter": {
+            "type": "Int32",
+            "opcua_id" : "ns=3;i=1001",
+            "value": "10",
+            "metadata": {}
+        },
+        "3:Random": {
+            "type": "Float",
+            "opcua_id" : "ns=3;i=1002",
+            "value": 10,
+            "metadata": {}
+        },
+        "3:Sawtooth": {
+            "type": "Number",
+            "opcua_id" : "ns=3;i=1003",
+            "value": 10,
+            "metadata": {}
+        },
+        "3:Sinusoid": {
+            "type": "Number",
+            "opcua_id" : "ns=3;i=1004",
+            "value": 10,
+            "metadata": {}
+        },
+        "3:Square": {
+            "type": "Number",
+            "opcua_id" : "ns=3;i=1005",
+            "value": 10,
+            "metadata": {}
+        },
+        "3:test3": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;i=1007",
+            "value": null,
+            "metadata": {}
+        },
+
+        "3:test2": {
+            "type": "Number",
+            "opcua_id" : "ns=3;i=1009",
+            "value": 10,
+            "metadata": {}
+        }
+    },
+    "Config": {
+        "url": "opc.tcp://WKS-100226-LT.ad.tuni.fi:53530/OPCUA/SimulationServer",
+        "subscriptions": ["3:test2", "3:test3"]
+    }
+}

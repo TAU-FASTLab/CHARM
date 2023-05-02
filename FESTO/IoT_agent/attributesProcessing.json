@@ -1,0 +1,161 @@
+{
+    "data": {
+        "id": "Processing_PLC",
+        "type": "3:OPCUA_Server_Processing",
+        "3:clamp": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"clamp\"",
+            "value": null,
+            "metadata": {}
+        },
+  
+        "3:commToHand1": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"commToHand1\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:commToHand2": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"commToHand2\"",
+            "value": null,
+            "metadata": {}
+        },
+  
+        "3:q14": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"q14\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:q15": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"q15\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:reject": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"reject\"",
+            "value": null,
+            "metadata": {}
+        },
+  
+        "3:rotate": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"rotate\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:rubDown": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"rubDown\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:rubMach": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"rubMach\"",
+            "value": null,
+            "metadata": {}
+        },
+  
+        "3:rubUp": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"rubUp\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:test": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"test\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:atRub": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"atRub\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:atTest": {
+          "type": "Boolean",
+          "opcua_id" : "ns=3;s=\"atTest\"",
+          "value": null,
+          "metadata": {}
+        },
+          "3:automan": {
+          "type": "Boolean",
+          "opcua_id" : "ns=3;s=\"automan\"",
+          "value": null,
+          "metadata": {}
+        },
+  
+        "3:commFromHand": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"commFromHand\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:inPos": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"inPos\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:lightBarr": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"lightBarr\"",
+            "value": null,
+            "metadata": {}
+        },
+  
+        "3:rubIsDown": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"rubIsDown\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:rubIsUp": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"rubIsUp\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:RESET": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"RESET\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:start": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"start\"",
+            "value": null,
+            "metadata": {}
+        },
+  
+        "3:stop": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"stop\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:wkpcAv": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"rubIsDown\"",
+            "value": null,
+            "metadata": {}
+        },
+        "3:wkpcOK": {
+            "type": "Boolean",
+            "opcua_id" : "ns=3;s=\"rubIsDown\"",
+            "value": null,
+            "metadata": {}
+        }
+    },
+    "Config": {
+        "url": "opc.tcp://10.1.1.6:4840",
+        "subscriptions": ["3:clamp","3:commToHand1","3:commToHand2","3:q14","3:q15","3:reject","3:rotate","3:rubDown","3:rubUp","3:test"]
+    }
+}
