@@ -24,6 +24,9 @@ It is supposed that you have already installed Docker while installing IoT Agent
 
 Install Docker on your system depending on Operating System (Linux, Windows, Mac) https://www.docker.com/
 
+![image](https://user-images.githubusercontent.com/106956110/235683106-7dbb7df9-92a8-4df0-96b5-bfcfa72d92b6.png)
+
+
 After installing you can check your current Docker and Docker Compose versions using the following commands in bash terminal:
 ```
 docker-compose -v
