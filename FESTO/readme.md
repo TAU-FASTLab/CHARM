@@ -3,10 +3,15 @@ Containerized and Un-Containerized Version of IoT Agents are available with deta
 ```
 https://github.com/TAU-FASTLab/CHARM/tree/main/UC5
 ```
+<<<<<<< HEAD
 Once you have build an image explained in above link, You will find the json files in the folder IoT_agent you can changes json depending on your server and run using this
 ```
 docker run -d --name=Processing_PLC --network=<network_name> --env Config=<json_file_name>.json iotimage
 ```
+=======
+![tempsnip](https://user-images.githubusercontent.com/106956110/235911166-bca1d333-b235-4725-9842-266fcd72a9b0.png)
+
+>>>>>>> 9d729a8cdfeb9fc6acef3c4f5dc14a85be53914c
 
 ## WSL with Ubuntu
 For running FIROS we need a Linux and ROS and to use Linux within Windows we will use WSL2 for Installing Ubuntu. I
@@ -70,7 +75,7 @@ You fill find robot1 in the directory.
 
 ## Configration in FIROS
 
-Make two config folder "config_1" and "config_2" with three files in each folder 
+Make two config folder "config_1" and "config_2" with three files in each folder. config folder given can be seen as example for understanding
 
 1. config.json
 2. topics.json
