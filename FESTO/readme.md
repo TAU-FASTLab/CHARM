@@ -66,7 +66,7 @@ You fill find robot1 in the directory.
 
 ## Configration in FIROS
 
-Make two config folder "config_1" and "config_2" with three files in each folder 
+Make two config folder "config_1" and "config_2" with three files in each folder. config folder given can be seen as example for understanding
 
 1. config.json
 2. topics.json
