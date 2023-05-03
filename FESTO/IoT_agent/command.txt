@@ -1,3 +1,1 @@
-docker run -d --name=iot1 --network=iotagent__containerized_v2-postgresql_default --env Config=attributes.json iotimage
-
-docker run -d --name=Processing_PLC --network=docker_default --env Config=attributesProcessing.json iotimage2
+docker run -d --name=Processing_PLC --network=<network_name> --env Config=<json_file_name>.json iotimage
