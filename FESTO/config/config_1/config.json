@@ -1,0 +1,9 @@
+{
+    "environment": "test",
+    "test": {
+        "contextbroker": {
+            "address": "localhost",
+            "port": 1026
+        }
+    }
+}

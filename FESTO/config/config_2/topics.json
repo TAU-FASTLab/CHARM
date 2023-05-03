@@ -1,0 +1,4 @@
+{
+    "/rv_3sdb/showJointPosition": ["robot1/jointMessage", "subscriber"],
+    "/showCartesianPoints": ["robot1/cartesianMessage", "subscriber"]
+}  
