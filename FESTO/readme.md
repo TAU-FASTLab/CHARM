@@ -93,15 +93,15 @@ pip install -r requirements.txt
 cd "catkin_ws"
 catkin_make
 ```
-### ROS Package and ROS Nodes 
+### ROS Package and ROS Nodes for communicating with RT-ToolBox
+Download robot1 folder given in the repositry. Change the configrations in scripts i.e (TCP IP and TCP Port) to connect with RT ToolBox. 
 
-You need rosnode that publish and subscribe your desire topic. For me I have used robot1 as package and getjoints.py and cartesianpoints.py as ROS nodes. You have to RUN your nodes to send data the topic to Orion
+You need rosnode that publish and subscribe your desire topic. For this implementation have used robot1 as package and getjoints.py and cartesianpoints.py as ROS nodes. You have to RUN your nodes to send data the topic to Orion.
 
-You fill find robot1 in the directory.
 
 ## Configration in FIROS
 
-Make two config folder "config_1" and "config_2" with three files in each folder. config folder given can be seen as example for understanding
+Make two config folder "config_1" and "config_2" with three files in each folder. config folder in the reposity given can be seen as example for understanding
 
 1. config.json
 2. topics.json
