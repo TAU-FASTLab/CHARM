@@ -95,7 +95,7 @@ catkin_make
 ```
 ## ROS Package and ROS Nodes for communicating with RT-ToolBox
 
-Download robot1 folder given in the repositry. Change the configrations in scripts i.e (TCP IP and TCP Port) to connect with RT ToolBox. 
+Download robot1 folder given in the repositry. Change the configrations in scripts i.e (TCP IP and TCP Port) to connect with RT ToolBox. Do it for all scripts, current configrations are according to FESTO line Robot Controller connected to RT-Toolbox
 
 ![tempsnip1](https://user-images.githubusercontent.com/106956110/236164001-cdd6035b-57b1-4705-83f7-4a59eec5bb03.png)
 
