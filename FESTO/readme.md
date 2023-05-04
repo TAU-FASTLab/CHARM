@@ -42,6 +42,9 @@ It is supposed that you have already installed Docker while installing IoT Agent
 
 Install Docker on your system depending on Operating System (Linux, Windows, Mac) https://www.docker.com/
 
+Open Docker Desktop in Windows and go to Settings>Resources> WSL Integration
+Enable integration with additional distros with your install Ubuntu
+
 ![image](https://user-images.githubusercontent.com/106956110/235683106-7dbb7df9-92a8-4df0-96b5-bfcfa72d92b6.png)
 
 
@@ -50,10 +53,7 @@ After installing you can check your current Docker and Docker Compose versions u
 docker-compose -v
 docker version
 ```
-Open Docker Desktop in Windows and go to Settings>Resources> WSL Integration
-Enable integration with additional distros with your install Ubuntu
 
-image.png
 
 ## RT ToolBox Configration
 
@@ -93,7 +93,8 @@ pip install -r requirements.txt
 cd "catkin_ws"
 catkin_make
 ```
-### ROS Package and ROS Nodes for communicating with RT-ToolBox
+## ROS Package and ROS Nodes for communicating with RT-ToolBox
+
 Download robot1 folder given in the repositry. Change the configrations in scripts i.e (TCP IP and TCP Port) to connect with RT ToolBox. 
 
 You need rosnode that publish and subscribe your desire topic. For this implementation have used robot1 as package and getjoints.py and cartesianpoints.py as ROS nodes. You have to RUN your nodes to send data the topic to Orion.
