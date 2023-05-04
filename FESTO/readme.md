@@ -26,6 +26,8 @@ We have installed Ubuntu-20.04, you can use this command by running it in Comman
 ```
 wsl --install -d Ubuntu-20.04
 ```
+![image](https://user-images.githubusercontent.com/106956110/236154543-b269dc27-a554-4fd9-b167-9150683c5f95.png)
+
 ## Installing ROS in WSL 
 This implementation works with ROS1 only, for installing ROS1 go through following link
 
