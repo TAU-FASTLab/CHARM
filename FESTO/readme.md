@@ -170,6 +170,7 @@ or
 ```
 sudo docker-compose up
 ```
+![image](https://user-images.githubusercontent.com/106956110/236196102-0e41477b-727d-48c9-a557-131f8456da24.png)
 
 ### Check if the Orion is Running 
 ```
