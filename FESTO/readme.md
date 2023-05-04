@@ -1,3 +1,7 @@
+## Architecture of Implementation 
+
+![MicrosoftTeams-image (8)](https://user-images.githubusercontent.com/106956110/236144278-a329aa69-8c6c-4b38-a0ee-a32996d88160.png)
+
 ## OPC UA (Client) IoT Agent by TAU
 Containerized and Un-Containerized Version of IoT Agents are available with detailed instruction for using it in your system
 ```
