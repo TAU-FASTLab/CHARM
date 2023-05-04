@@ -34,6 +34,9 @@ This implementation works with ROS1 only, for installing ROS1 go through followi
 ```
 http://wiki.ros.org/noetic/Installation/Ubuntu
 ```
+Make sure you have installed ros correctly
+![image](https://user-images.githubusercontent.com/106956110/236155230-34f29580-40e6-4084-aa0b-e58fa548294e.png)
+
 ## Integration with Docker 
 It is supposed that you have already installed Docker while installing IoT Agent in your system. However if you still not have installed yet, you can explore this link
 
