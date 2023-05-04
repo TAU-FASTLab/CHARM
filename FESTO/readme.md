@@ -12,10 +12,10 @@ Once you have build an image explained in above link, You will find the json fil
 ```
 docker run -d --name=Processing_PLC --network=<network_name> --env Config=<json_file_name>.json iotimage
 ```
-=======
+
 ![tempsnip](https://user-images.githubusercontent.com/106956110/235911166-bca1d333-b235-4725-9842-266fcd72a9b0.png)
 
->>>>>>> 9d729a8cdfeb9fc6acef3c4f5dc14a85be53914c
+
 
 ## WSL with Ubuntu
 For running FIROS we need a Linux and ROS and to use Linux within Windows we will use WSL2 for Installing Ubuntu. I
