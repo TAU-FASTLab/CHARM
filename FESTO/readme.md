@@ -55,6 +55,23 @@ Enable integration with additional distros with your install Ubuntu
 
 image.png
 
+## RT ToolBox Configration
+
+
+Select New from the RT-ToolBox window and follow the following steps:
+
+1. Select robot model that you want to use. We are using RV-3SDB for this implementation for both Simulation and Real Robot
+![image](https://user-images.githubusercontent.com/106956110/236159208-778e666e-fdbd-465c-af69-01686ac6c9d0.png)
+
+2. Communication with Robot Controller is important step. Here we are using IP address and PORT at which Robot controller is configured in FESTO line
+
+![image](https://user-images.githubusercontent.com/106956110/236159508-6613041f-bf81-47a1-bfa8-89c4d2037ef4.png)
+
+3. After completing other basic setting you will get the windows something like this
+
+![image](https://user-images.githubusercontent.com/106956110/236159138-a29be089-9173-49df-8957-8aba5aa5cad0.png)
+
+
 ## Environment setup for ROS
 You must source this script in every bash terminal you use ROS in.
 ```
