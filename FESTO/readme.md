@@ -97,6 +97,9 @@ catkin_make
 
 Download robot1 folder given in the repositry. Change the configrations in scripts i.e (TCP IP and TCP Port) to connect with RT ToolBox. 
 
+![tempsnip1](https://user-images.githubusercontent.com/106956110/236164001-cdd6035b-57b1-4705-83f7-4a59eec5bb03.png)
+
+
 You need rosnode that publish and subscribe your desire topic. For this implementation have used robot1 as package and getjoints.py and cartesianpoints.py as ROS nodes. You have to RUN your nodes to send data the topic to Orion.
 
 
