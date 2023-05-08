@@ -115,8 +115,6 @@ services:
       - Config=attributesRexygen.json
       - Port=80
   
-
-
 networks:
   default:
     labels:
