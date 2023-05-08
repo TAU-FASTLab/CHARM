@@ -2,5 +2,8 @@ This repo contains the CHARM development done for UC5 including the implementati
 
 System Overview of UC5
 
-![image](https://user-images.githubusercontent.com/75621546/236813625-4b61bb39-ee95-4d5d-8b81-508d5b0580bd.png)
+![image](https://user-images.githubusercontent.com/75621546/236813748-d43d4514-3b8a-4b05-a63f-408504f0d983.png)
+
+
+
 
