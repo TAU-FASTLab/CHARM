@@ -34,6 +34,10 @@ This implementation works with ROS1 only, for installing ROS1 go through followi
 ```
 http://wiki.ros.org/noetic/Installation/Ubuntu
 ```
+if you face an error : "Temporary failure in name resolution" go through following link:
+https://phoenixnap.com/kb/temporary-failure-in-name-resolution
+
+
 Make sure you have installed ros correctly
 ![image](https://user-images.githubusercontent.com/106956110/236155230-34f29580-40e6-4084-aa0b-e58fa548294e.png)
 
