@@ -42,11 +42,24 @@ For this implementation we have used this
 sudo apt install ros-noetic-desktop-full
 ```
 
-if you face an error : "Temporary failure in name resolution" go through following link:
+if you face an error : **_"Temporary failure in name resolution"_** go through following link:
+
 https://phoenixnap.com/kb/temporary-failure-in-name-resolution
 
 
 Make sure you have installed ros correctly
+You must source this script in every bash terminal you use ROS in.
+```
+source /opt/ros/noetic/setup.bash
+```
+You can check ROS version installed:
+```
+rosversion -d
+```
+roscore is a collection of nodes and programs that are pre-requisites of a ROS-based system. You must have a roscore running in order for ROS nodes to communicate. It is launched using the roscore command.
+```
+roscore
+```
 ![image](https://user-images.githubusercontent.com/106956110/236155230-34f29580-40e6-4084-aa0b-e58fa548294e.png)
 
 
