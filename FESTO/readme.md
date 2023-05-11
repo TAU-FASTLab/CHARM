@@ -34,6 +34,13 @@ This implementation works with ROS1 only, for installing ROS1 go through followi
 ```
 http://wiki.ros.org/noetic/Installation/Ubuntu
 ```
+For this implementation we have used this 
+_Desktop-Full Install: (Recommended) : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages
+
+```
+sudo apt install ros-noetic-desktop-full
+```
+
 if you face an error : "Temporary failure in name resolution" go through following link:
 https://phoenixnap.com/kb/temporary-failure-in-name-resolution
 
