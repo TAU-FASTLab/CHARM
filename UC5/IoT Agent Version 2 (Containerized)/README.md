@@ -25,7 +25,7 @@ Download and Install Prosys OPC UA Server.
 
 https://www.prosysopc.com/products/opc-ua-simulation-server/
 
-Get the endpoint from the server and use it in the json file.
+Get the endpoint from the server and use it in the json file (UC5/IoT Agent Version 2 (Containerized)/app/attributes.json).
 It will be similar to this: "opc.tcp://<user>:53530/OPCUA/SimulationServer"
 
 Analyze the attributes (Counters, Random ....) you want to read/write, you can add more attributes if you want.
