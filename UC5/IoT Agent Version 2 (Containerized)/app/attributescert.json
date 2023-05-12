@@ -47,7 +47,7 @@
         }
     },
     "Config": {
-        "url": "opc.tcp://172.22.144.1:52520/OPCUA/SimulationServer",
+        "url": "opc.tcp://<localhost>:52520/OPCUA/SimulationServer",
 
         "subscriptions": ["3:test2","3:test3"]
     },
