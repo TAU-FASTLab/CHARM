@@ -113,6 +113,8 @@ Add all details including, urn, username, password, security_policy, security_mo
 docker build -t iotimage .
 
 ```
+## Selection of Approach to run the docker images....00000000000000000000000000000 
+     
 ### Aproach 1: Creating containers one at a time via command line
 
 ## Start the Orion Context Brocker
@@ -135,14 +137,14 @@ c074378cef3c   none                            null      local
 
 ```
 
-## Run Station 1
+## Run Station 1 00000000000000000000000000000000000000000000
 orion_network refers to the network on which orion is running
 ```
 docker run -d --name=iot1 --network=iotagent__containerized_v2-postgresql_default --env Config=attributes.json iotimage
 
 ```
 
-## Run Station 2
+## Run Station 2 000000000000000000000000000000000000000attributesRexygen.jso
 orion_network refers to the network on which orion is running
 ```
 docker run -d --name=iot1 --network=iotagent__containerized_v2-postgresql_default --env Config=attributesRexygen.json iotimage
