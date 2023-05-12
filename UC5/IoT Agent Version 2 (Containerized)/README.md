@@ -60,7 +60,7 @@ In order to read attributes from OPCUA Server we need to make a json file contai
          	}
      },
         "Config": {
-        "url": "opc.tcp://host.docker.internal:53530/OPCUA/SimulationServer",
+        "url": "opc.tcp://<hostname>:53530/OPCUA/SimulationServer",
 
         "subscriptions": ["3:test2"]
         }
