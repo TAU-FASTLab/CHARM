@@ -72,6 +72,8 @@ Note: if you are using certificate and username/password encryption please go th
 
 # Running With Certificate 
 
+Note: If you want to run without certificate, please jump to section "Build an Image"
+
 ### Introduction
 The process of connecting IoT agent with Prosys Simulated OPC-UA Server using password and certificate is explained below:
 
