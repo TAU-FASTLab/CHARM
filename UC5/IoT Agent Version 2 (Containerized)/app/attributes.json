@@ -47,7 +47,7 @@
         }
     },
     "Config": {
-        "url": "opc.tcp://WKS-98992-LT.ad.tuni.fi:53530/OPCUA/SimulationServer",
+        "url": "opc.tcp://<hostname>:53530/OPCUA/SimulationServer",
         "subscriptions": ["3:test2", "3:test3"]
     }
 }
