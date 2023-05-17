@@ -113,7 +113,11 @@ Add all details including, urn, username, password, security_policy, security_mo
 docker build -t iotimage .
 
 ```
-## Selection of Approach to run the docker images....00000000000000000000000000000 
+Note: Incase you find any issue while building an image, make sure you have installed correct version of **python** and also **Docker Desktop** is installed properly.
+
+## Selection of Approach to run the IoT Agent:
+1. One at a time via command line
+2. Running all container using docker-compose file
      
 ### Aproach 1: Creating containers one at a time via command line
 
@@ -137,17 +141,21 @@ c074378cef3c   none                            null      local
 
 ```
 
-## Run Station 1 00000000000000000000000000000000000000000000
+## Run Station 1
+In the app folder there are some json files (_**attributes.json, attributesRexygen.json**_). You can edit these json files according to your server by putting attributes and endpoint of your server.
+
 orion_network refers to the network on which orion is running
 ```
-docker run -d --name=iot1 --network=iotagent__containerized_v2-postgresql_default --env Config=attributes.json iotimage
+docker run -d --name=iot1 --network=iotagentcontainerized_default --env Config=attributes.json iotimage
 
 ```
 
-## Run Station 2 000000000000000000000000000000000000000attributesRexygen.jso
+## Run Station 2
+
+In the app folder there are some json files (_**attributes.json, attributesRexygen.json**_). You can edit these json files according to your server by putting attributes and endpoint of your server.
 orion_network refers to the network on which orion is running
 ```
-docker run -d --name=iot1 --network=iotagent__containerized_v2-postgresql_default --env Config=attributesRexygen.json iotimage
+docker run -d --name=iot1 --network=iotagentcontainerized_default --env Config=attributesRexygen.json iotimage
 
 ```
 ### Aproach 2: Creating all containers at one using a docker-compose file
@@ -174,6 +182,8 @@ docker run -d --name=iot1 --network=iotagent__containerized_v2-postgresql_defaul
 ```
 docker-compose up -d
 ```
+
+
 
 # For accessing PostgreSQL DB use following commands
 
