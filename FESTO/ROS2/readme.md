@@ -4,4 +4,11 @@ This guide describes the ROS2 implementation with FIROS. The first step is to in
 
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html  
 
+The first step is to create a ROS 2 workspace in the system. First, we have to source the setup.bash file for the ROS distribution.
+```source/opt/ros/foxy/setup.bash```
 
+Next, we can create the directory using the following command. 
+```
+mkdir ros2_ws/src
+cd src
+```
