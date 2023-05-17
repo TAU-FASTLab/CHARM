@@ -158,6 +158,8 @@ orion_network refers to the network on which orion is running
 docker run -d --name=iot1 --network=iotagentcontainerized_default --env Config=attributesRexygen.json iotimage
 
 ```
+
+
 ### Aproach 2: Creating all containers at one using a docker-compose file
 ## Open the docker compose file and add all IoT Agents specifying their config file names as environment variables
 ```
@@ -182,9 +184,36 @@ docker run -d --name=iot1 --network=iotagentcontainerized_default --env Config=a
 ```
 docker-compose up -d
 ```
-
-
-
+## Checking Entities in the Orion
+If your containers and IoT Agents are running fine you can check **entities** from this link
+```
+localhost:1026/v2/entities
+```
+**Subscriptions** can be checked using this link
+```
+localhost:1026/v2/subscriptions
+```
+If you want to update any entities in Orion and Server you have to **Post** to following link 
+```
+localhost:1026/v2/op/update
+```
+Make sure you follow the same format for sending the update
+```
+{
+"actionType": "update",
+"entities": [
+{
+        "id": "Simulation",
+        "type": "3:Simulation",
+        "3:test2": {
+            "type": "Number",
+            "value": 90,
+            "metadata": {}
+        }
+}
+]
+}
+```   
 # For accessing PostgreSQL DB use following commands
 
 ## Checking The Cygnus Service Health
