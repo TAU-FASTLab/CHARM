@@ -22,3 +22,15 @@ git clone --recursive https://github.com/iml130/firos.git
 Since this package is developed for ROS 1, there are several changes that need to be made in order to make it compatible for ROS 2. The CMakeLists.txt and package.xml files need to be modified. 
 
 ROS 2 uses ament based build system called using colcon as compared to catkin_make for ROS 1. Therefore, all catkin tools need to be converted to ament packages. In addition to this, the C++ and Python dependencies are also different. Instead of rospy and roscpp, rclpy and rclpp are used for the latter version. 
+
+The modified versions can be cloned from this repository. After this, run the following.
+```
+cd ros2_ws/src/firos
+
+# Install Dependencies
+pip install -r requirements.txt
+
+# Make Node in base directory
+cd ../../
+colcon build
+```
