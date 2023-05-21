@@ -34,3 +34,32 @@ pip install -r requirements.txt
 cd ../../
 colcon build
 ```
+Use the CMakeLists.txt and package.xml files from this repository and replace it with the existing files. 
+
+## Docker Setup
+
+You will need Docker engine and desktop installed on the system in order to run the IoT agent. Docker engine can be installed from the following link. 
+https://docs.docker.com/engine/install/ubuntu/
+
+Docker desktop can be installed from the following link. 
+https://docs.docker.com/desktop/install/ubuntu/
+
+Run the following command:
+```
+sudo docker run hello world
+```
+
+If installed correctly, you will be able to see something like this. 
+
+<img width="551" alt="docker" src="https://github.com/TAU-FASTLab/CHARM/assets/84769093/7534ded3-86d4-4c95-b582-3914606c642f">
+
+## RT Toolbox Setup 
+
+Open RT Toolbox and add a new robot model named RV-3SDB that corresponds the the FESTO line robot. You will get a window similar to this. 
+![rt toolbox](https://github.com/TAU-FASTLab/CHARM/assets/84769093/3bbdf6d6-ae39-4107-b82f-0f855215c0ac)
+
+Next, select the IP address and port address. 
+![rt toolbox 2](https://github.com/TAU-FASTLab/CHARM/assets/84769093/72ee80ec-93ea-4078-a4c9-bb43779b067c)
+
+
+
