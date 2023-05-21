@@ -103,3 +103,15 @@ For config_2 file, add the following commands. '
 ```
 
 Notice that the publisher and subsciber are swapped here. 
+
+After making these changes, build the package again using colon_build. 
+
+Move to the docker folder inside the directory and run. 
+```
+sudo docker compose up
+```
+
+Once all the containers are started, you can check if the Orion context broker is running from. 
+```
+http://localhost:1026/v2/entities
+```
