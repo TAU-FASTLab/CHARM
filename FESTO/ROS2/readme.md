@@ -1,6 +1,6 @@
 ## ROS2 Implementation with FIROS 
 
-This guide describes the ROS2 implementation with FIROS. The first step is to install ROS2 on the local computer. Ubuntu 20.04 is used on virtual machine and ROS is installed on it. Foxy distribution was used for the project that can be installed from: 
+This guide describes the proposed ROS2 implementation with FIROS. The first step is to install ROS2 on the local computer. Ubuntu 20.04 is used on virtual machine and ROS is installed on it. Foxy distribution was used for the project that can be installed from: 
 
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html  
 
@@ -62,4 +62,44 @@ Next, select the IP address and port address.
 ![rt toolbox 2](https://github.com/TAU-FASTLab/CHARM/assets/84769093/72ee80ec-93ea-4078-a4c9-bb43779b067c)
 
 
+## FIROS Config files 
 
+In the firos directory, create two folders, config_1 and config_2 that contain the following files. 
+
+![config](https://github.com/TAU-FASTLab/CHARM/assets/84769093/a21db96c-7a95-41a1-88ba-7c9f99c7048f)
+
+The config.json file will have the following content. 
+
+```
+{
+    "environment": "test",
+    "test": {
+        "contextbroker": {
+            "address": "localhost",
+            "port": 1026
+        }
+    }
+}
+```
+
+The whitelist.json file will have the following content. '
+```
+{}
+```
+For config_1 files, add the following commands for the topics and messages. 
+```
+{
+    "/rv_3sdb/showJointPosition": ["festo/jointMessage", "publisher"],
+    "/showCartesianPoints": ["festo/cartesianMessage", "subscriber"] 
+}
+```
+
+For config_2 file, add the following commands. '
+```
+{
+    "/rv_3sdb/showJointPosition": ["festo/jointMessage", "subscriber"],
+    "/showCartesianPoints": ["festo/cartesianMessage", "publisher"] 
+}
+```
+
+Notice that the publisher and subsciber are swapped here. 
