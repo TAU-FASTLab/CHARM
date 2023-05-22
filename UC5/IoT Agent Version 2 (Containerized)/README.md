@@ -156,7 +156,7 @@ docker run -d --name=iot1 --network=iotagentcontainerized_default --env Config=a
 In the app folder there are some json files (_**attributes.json, attributesRexygen.json**_). You can edit these json files according to your server by putting attributes and endpoint of your server.
 orion_network refers to the network on which orion is running
 ```
-docker run -d --name=iot1 --network=iotagentcontainerized_default --env Config=attributesRexygen.json iotimage
+docker run -d --name=iot2 --network=iotagentcontainerized_default --env Config=attributesRexygen.json iotimage
 
 ```
 
