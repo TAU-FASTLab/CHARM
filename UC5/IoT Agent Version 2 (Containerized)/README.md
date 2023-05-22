@@ -140,7 +140,8 @@ f56cc2696b38   bridge                          bridge    local
 c074378cef3c   none                            null      local
 
 ```
-
+## To add Why two stations, not one, not five, what is the difference between these two, which is the main difference between, both interact with the same components?
+     
 ## Run Station 1
 In the app folder there are some json files (_**attributes.json, attributesRexygen.json**_). You can edit these json files according to your server by putting attributes and endpoint of your server.
 
