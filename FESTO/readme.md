@@ -8,7 +8,7 @@ Containerized and Un-Containerized Version of IoT Agents are available with deta
 https://github.com/TAU-FASTLab/CHARM/tree/main/UC5 
 ```
 
-Once you have build an image explained in above link, You will find the json files in the folder IoT_agent you can changes json depending on your server and run using this. (In the same folder where the image was built, we run the following command:)
+Once you have build an image explained in above link, You will find the json files in the folder IoT_agent (e.g. UC5/IoT Agent Version 2 (Containerized)) you can changes json depending on your server and run using the following sentence, which is a generic form how to run station. For detail steps, follow the link  e.g. for one station (MPS) https://github.com/TAU-FASTLab/CHARM/tree/main/UC5/IoT%20Agent%20Version%202%20(Containerized)#run-station-1 (In the same folder that the image was built)
 ```
 docker run -d --name=Processing_PLC --network=<network_name> --env Config=<json_file_name>.json iotimage
 ```
