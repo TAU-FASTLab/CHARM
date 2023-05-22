@@ -115,3 +115,8 @@ Once all the containers are started, you can check if the Orion context broker i
 ```
 http://localhost:1026/v2/entities
 ```
+
+Further details about the implementation and future work can be accessed from.
+
+https://tuni-my.sharepoint.com/:w:/g/personal/haris_naeem_tuni_fi/Edz1kxBPOaFCqjL_qASVOdUB3OCeN7hki7SvNhp4pSyHcQ?e=dO0zYk 
+
