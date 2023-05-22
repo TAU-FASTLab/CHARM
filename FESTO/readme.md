@@ -3,9 +3,9 @@
 ![MicrosoftTeams-image (8)](https://user-images.githubusercontent.com/106956110/236144278-a329aa69-8c6c-4b38-a0ee-a32996d88160.png)
 
 ## OPC UA (Client) IoT Agent by TAU
-Containerized and Un-Containerized Version of IoT Agents are available with detailed instruction for using it in your system
+Containerized and Un-Containerized Version of IoT Agents are available with detailed instruction for using it in your system. (follow the below guidance, until the image build?, do not run the images yet)
 ```
-https://github.com/TAU-FASTLab/CHARM/tree/main/UC5
+https://github.com/TAU-FASTLab/CHARM/tree/main/UC5 
 ```
 
 Once you have build an image explained in above link, You will find the json files in the folder IoT_agent you can changes json depending on your server and run using this
