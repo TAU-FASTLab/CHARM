@@ -16,6 +16,7 @@ docker run -d --name=Processing_PLC --network=<network_name> --env Config=<json_
 
 ```
 # To be updated
+#Generic example (for Option 2 in IoT Agent)
   # IoT Agent
   iot-agent:
     labels:
