@@ -244,6 +244,8 @@ You will get something like this:
 ![Screenshot (13)](https://user-images.githubusercontent.com/106956110/236203047-7d8d0b66-104e-441d-bda0-c5f6a15c9800.png)
 
 
+
+
 ### Start FiROS Service to Subscribe to the topic published by Robot
 
 In here the firos subscribse to the topic published by the Robot, it subscribes in order to be able to publish it to the orion.
@@ -276,3 +278,7 @@ The image below shows the simulated Robot wiht FIROS
 
 ![Screenshot (3)](https://user-images.githubusercontent.com/106956110/236204192-0b8efcac-f392-4b94-8ff3-c1fca01400c4.png)
 
+### Orchestrator to Control Robot with OPC UA Server
+**_Orchestrator.py_** is avalaible in robot1/scripts folder. Running orchestrator you can control the robot function by defining these. In the current file Orchestrator is connected to the Orion which is connected to Processing MPS of FESTO Line. Orchestrator is designed in such a way that when you press start button of Processing station it turns on the servo motor of the robot. Also, when the start button is false it keeps the servo off.
+
+You can manipulate the scripts according to your requirements.
