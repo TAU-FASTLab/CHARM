@@ -261,6 +261,10 @@ You will get something like this:
 
 
 ### Start FiROS Service to Subscribe to the topic published by Robot
+
+In here the firos subscribse to the topic published by the Robot, it subscribes in order to be able to publish it to the orion.
+Thus, we say that the config_1 is a publisher. 
+
 ```
 python3 src/firos/firos/core.py --conf src/firos/config_1
 ```
