@@ -9,32 +9,16 @@ https://github.com/TAU-FASTLab/CHARM/tree/main/UC5
 ```
 
 Once you have build an image explained in above link, You will find the json files in the folder IoT_agent (e.g. UC5/IoT Agent Version 2 (Containerized)) you can changes json depending on your server and run using the following sentence, which is a generic form how to run station. For detail steps, follow the link  e.g. for one station (MPS) https://github.com/TAU-FASTLab/CHARM/tree/main/UC5/IoT%20Agent%20Version%202%20(Containerized)#run-station-1 (In the same folder that the image was built)
+Here we use Option 1 of running IoT Agent, since we dont need Option 2, because we already will have other container running.
+
 ```
 #Generic example (for Option 1 in IoT Agent)
 # example name of container: Processing_PLC
 docker run -d --name=<nameofcontainer>  --network=<network_name_of_IotAgent> --env Config=<configuration_json_file_name>.json iotimage
 ```
 
-```
-# To be updated
-#Generic example (for Option 2 in IoT Agent)
-  # IoT Agent
-  iot-agent:
-    labels:
-      org.fiware: 'tutorial'
-    image: iotimage
-    hostname: app
-    container_name: app-iot
-    depends_on: 
-      - orion
-    networks:
-      - default
-    extra_hosts:
-      - "opcuaserver:127.0.0.1" 
-    environment:
-      - Config=attributesPLC1.json
-      - Port=80
-```
+
+
 
 ![tempsnip](https://user-images.githubusercontent.com/106956110/235911166-bca1d333-b235-4725-9842-266fcd72a9b0.png)
 
