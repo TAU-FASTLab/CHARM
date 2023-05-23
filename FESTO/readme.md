@@ -276,11 +276,19 @@ python3 src/firos/firos/core.py --conf src/firos/config_2 -P 10101 --ros-node-na
 ![image](https://user-images.githubusercontent.com/106956110/236204113-b1d9ff72-cc23-4160-a9e4-e8423dd97349.png)
 
 ## Simulated OPC UA Server with IoT Agent Sending Entities to Orion
+Now that you have FIROS runing, you need to connect to the OPC UA Server (e.g. Prosys OPC UA Server or OPC UA Server on PLC)
+Follow, the guidelines in this section "OPC UA (Client) IoT Agent by TAU" in order to run the IoT Agent OPC UA that will connect to the OPC UA Server.
+
 ![Screenshot (6)](https://user-images.githubusercontent.com/106956110/236204359-fa202acd-5d46-415b-80c6-c83f62cbf5b9.png)
 
 ## Docker Container Running
+The image below shows the different docker containers running.
+
 ![Screenshot (5)](https://user-images.githubusercontent.com/106956110/236204261-82900e07-c51c-4b99-b8e3-cb364d5580fe.png)
 
 ## Simulated Robot with FIROS Sending Joints and Cartesian Points to Orion
+
+The image below shows the simulated Robot wiht FIROS
+
 ![Screenshot (3)](https://user-images.githubusercontent.com/106956110/236204192-0b8efcac-f392-4b94-8ff3-c1fca01400c4.png)
 
