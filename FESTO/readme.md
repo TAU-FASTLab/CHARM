@@ -122,7 +122,7 @@ Select New from the RT-ToolBox window and follow the following steps:
 
 
 ## Environment setup for ROS
-You must source this script in every bash terminal you use ROS in.
+You must source this script in every bash terminal you use ROS in. Do this in your own workspace (created when ROS was installed) e.g. cd catkin_ws/
 ```
 . ~/catkin_ws/devel/setup.bash
 source /opt/ros/noetic/setup.bash
