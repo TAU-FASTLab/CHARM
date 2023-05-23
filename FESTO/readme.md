@@ -232,10 +232,14 @@ You will get response:
 
 ## Running ros-nodes for Reading Joints and Cartiesian Points
 ### Terminal 1
+
+Remember as mentioned above, we must soure the setup.bash script to use ROS in this terminal  (e.g. cd catking_ws/; . ~/catkin_ws/devel/setup.bash; 
+source /opt/ros/noetic/setup.bash, please see section Environment setup for ROS )
 ```
 rosrun robot1 getJoints.py
 ```
 ### Terminal 2
+Remember as mentioned above, we must soure the setup.bash script to use ROS in this terminal (e.g. cd catking_ws/; . ~/catkin_ws/devel/setup.bash; source /opt/ros/noetic/setup.bash, please see section Environment setup for ROS )
 
 ```
 rosrun robot1 cartesianpoints.py
