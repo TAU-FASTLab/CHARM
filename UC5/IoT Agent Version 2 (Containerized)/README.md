@@ -20,6 +20,8 @@ This is a containerised version of the OPC UA IoT Agent for connecting the OPC U
 
 This aplication allows to create multiple IoT containers from one Image, each representig one OPC UA server. Configuration files for each Server must be created and provided before creating the image
 
+Below you can either start a Simulated Server such as Prosys or setting up a OPC UA Server in PLC
+
 ## Starting The Prosys Simulated Server
 Download and Install Prosys OPC UA Server.
 
